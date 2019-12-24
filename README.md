@@ -1,12 +1,7 @@
-# v2ray配置生成工具 & 配置文件模板( 4.x )
+# v2ray-v4-templates
 
- 已经生成了常见组合和配置，如果这里没有你想要的配置，简单的方法是试试这个程序的[**在线版本**](https://veekxt.com/utils/v2ray_gen)。
+Thanks [@veekxt](https://github.com/veekxt) for generously sharing these popular v2ray configuration templates. You should definitely checkout the [original repo](https://github.com/veekxt/v2ray-template) as well as his [web app](https://veekxt.com/utils/v2ray_gen) which makes customizing v2ray configuration file more easily.
 
-## 模板说明
+This repo is changed to serve all the server-side v2ray configuration files for [ansible-v2ray](https://github.com/jellycsc/ansible-v2ray). Ansible is used for managing different v2ray configurations, and deploy them effortlessly in large scale.
 
-`NAT-DDNS` : 内网穿透
-
-`NAT-PROXY` : 使用内网设备做正向代理，参考[这篇文章](https://toutyrater.github.io/app/reverse2.html)
-
-`tcp+vmess and balance` : 负载均衡( v4.4 )
-
+I also wrote a little handy [Ansible role](https://galaxy.ansible.com/jellycsc/v2ray) for installing v2ray mainly on RHEL and Debian based OS. You should definitely check that out too:)
